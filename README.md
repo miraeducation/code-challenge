@@ -31,6 +31,6 @@ Os seguintes testes técnicos estão prontos para realização:
 - [Frontend](frontend)
 - [Mobile](mobile)
 
-Para os testes de *Frontend* e *Mobile* será necessário utilizar nossa API de testes e também recursos como ícones. Você encontrará instruções sobre na página de [Recursos](recursos)
+Para os testes de *Frontend* e *Mobile* será necessário utilizar nossa API de testes e também recursos como ícones. Você encontrará instruções sobre na página de [Recursos](recursos.md).
 
 Boa sorte! :) Se tiver alguma dúvida, converse com seu contato na Mira!
