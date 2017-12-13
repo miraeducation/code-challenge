@@ -27,10 +27,10 @@ Crie seu projeto para o teste técnico no [BitBucket](bitbucket.org) e, quando e
 
 ### Testes técnicos
 Os seguintes testes técnicos estão prontos para realização:
-- [Backend](backend)
-- [Frontend](frontend)
-- [Mobile](mobile)
+- [Backend](backend.md)
+- [Frontend](frontend.md)
+- [Mobile](mobile.md)
 
-Para os testes de *Frontend* e *Mobile* será necessário utilizar nossa API de testes e também recursos como ícones. Você encontrará instruções sobre na página de [Recursos](recursos.md).
+Para os testes de *Frontend* e *Mobile* será necessário utilizar nossa API de testes e também recursos como ícones. Você encontrará instruções sobre na página de [Recursos](resources.md).
 
 Boa sorte! :) Se tiver alguma dúvida, converse com seu contato na Mira!

@@ -1,8 +1,4 @@
-# Recursos
-
-Para a implementação dos teste de frontend ou de mobile, será necessário utilizar a API para testes da Mira.
-
-## API
+# API
 Para a implementação dos testes de frontend e mobile será necessário consumir os seguintes serviços com os respectivos contratos:
 
 ### Receber informações sobre o usuário (professor)
@@ -114,9 +110,3 @@ POST 	https://api-test.miraeducacao.com.br/class/{classId}/lesson
 ```
 
 > Para efeitos de simplicidade, não há necessidade de autenticação nem autorização para consumo dos serviços.
-
-## Ícones
-
-| Presença  	|  Ausência 	|
-|:-:	|:-:	|
-| <img width="69" alt="screen shot 2017-12-13 at 14 35 02" src="https://user-images.githubusercontent.com/664138/33950642-11979962-e014-11e7-9041-dfd93e2b865c.png"> | <img width="63" alt="screen shot 2017-12-13 at 14 35 34" src="https://user-images.githubusercontent.com/664138/33950657-16720b8e-e014-11e7-90f5-a4bf65b20d3b.png"> |
