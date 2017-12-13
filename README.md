@@ -1,6 +1,8 @@
 # Mira Educação - Teste Técnico
 
-Olá! Seja bem-vindo ao nosso repositório de testes técnicos. Na Mira Educação temos a missão muito importante de melhorar a educação, e para isso construímos um produto com muita qualidade que envolve serviços de backend, portais (frontend) e apps Android e iOS.
+Olá, seja bem-vindo ao nosso repositório de testes técnicos!
+
+Na [Mira Educação](http://www.miraeducacao.com.br) temos a missão muito importante de melhorar a educação, e para isso construímos um produto com muita qualidade que envolve serviços de backend, portais (frontend) e apps Android e iOS.
 
 ## Considerações Gerais
 Os testes técnicos servem para:
@@ -19,13 +21,13 @@ Algumas recomendações para a realização do teste técnico:
 
 **Importante!** Os desenvolvedores da Mira vão revisar o seu código e executar o mesmo. Então, garanta que as dependências sejam resolvidas e consigamos ver todas as funcionalidades de forma fácil e intuitiva.
 
-### Como fazer a entrega
+### Como fazer a entrega?
 Crie seu projeto para o teste técnico no [BitBucket](bitbucket.org) e, quando estiver pronto para revisão, siga os passos:
 - Vá em `Settings` e depois `User and group access`
 - Adicione o email devs@miraeducacao.com.br com permissão de `Read` como um *User*
-- Por fim, avise seu contato na Mira, que solicitará revisão por parte dos desenvolvedores da Mira
+- Por fim, avise seu contato na Mira, que solicitará revisão por parte dos nossos desenvolvedores
 
-### Testes técnicos
+### Enfim, os testes técnicos :)
 Os seguintes testes técnicos estão prontos para realização:
 - [Backend](backend.md)
 - [Frontend](frontend.md)
