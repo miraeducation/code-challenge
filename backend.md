@@ -22,11 +22,9 @@ As informações de uma pessoa que precisamos cadastrar são:
 
 > TLDR: o serviço deve prover endpoints de inserção, busca, atualização e remoção de um ou mais usuários
 
-> Todo nova pessoa é considerada ativa
+> Uma nova pessoa é considerada ativa e recebe um `id` gerado automaticamente
 
-> Todo novo usuário recebe um Id gerado de forma automática
-
-### Endpoints extras
+### Funcionalidades extras
 - Endpoint de busca por nome, sobrenome e/ou CPF
 - Endpoint para ativar/desativar uma lista de ids de pessoas
 
