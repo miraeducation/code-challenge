@@ -5,21 +5,30 @@ Construção de uma API para manutenção de dados de usuários.
 
 ## Contexto
 Estamos desenvolvendo uma aplicação para cadastro de pessoas na qual existem duas situações de cadastro:
-   - as pessoas que se cadastram online via portal,
-   - as pessoas que se cadastram pelo app do tablet dos pesquisadores (que armazena os cadastros e os envia em lote quando possui conexão).
-Além disso a aplicação precisa permitir a edição de usuários com erros de cadastro, a busca de usuários por cpf e a remoção de usuários que não serão utilizados na campanha.
+   - uma pessoa fazendo cadastro *único* via portal
+   - uma lista de pessoas sendo inseridas de uma única vez (*bulk*)
 
-No lado do servidor precisamos desenvolver uma API para possibilitar esses cadastros.
+No lado do servidor precisamos desenvolver uma API para o CRUD de pessoas, considerando as duas situações mencionadas.
 
-As informações que precisamos das pessoas a serem cadastradas são:
+As informações de uma pessoa que precisamos cadastrar são:
 - Nome
 - Sobrenome
+- CPF
 - Data de nascimento
 - Endereço
 - Telefones
 - Emails
+- Ativo (S /N)
 
-> O serviço deve prover endpoints de inserção, busca, atualização e remoção de um ou mais usuários
+> TLDR: o serviço deve prover endpoints de inserção, busca, atualização e remoção de um ou mais usuários
+
+> Todo nova pessoa é considerada ativa
+
+> Todo novo usuário recebe um Id gerado de forma automática
+
+### Endpoints extras
+- Endpoint de busca por nome, sobrenome e/ou CPF
+- Endpoint para ativar/desativar uma lista de ids de pessoas
 
 ## Requisitos técnicos
 - Desenvolver usando *Java* ou *Kotlin*
