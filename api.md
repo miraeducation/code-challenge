@@ -3,9 +3,9 @@ Para a implementação dos testes de frontend e mobile será necessário consumi
 
 ### Receber informações sobre o usuário (professor)
 
-```http
-GET https://api-test.miraeducacao.com.br/me
 
+##### GET https://api-test.miraeducacao.com.br/teacher/{teacherId}
+```json
 {
    "id": "ecc9a6ed-2456-4f21-8909-60535ed1670b",
    "name": "João Ferreira"
@@ -14,12 +14,12 @@ GET https://api-test.miraeducacao.com.br/me
 
 ### Receber listagem de turmas
 
-```http
-GET https://api-test.miraeducacao.com.br/teacher/{teacherId}/classes
-
+##### GET https://api-test.miraeducacao.com.br/teacher/{teacherId}/schoolclasses
+```json
 [
    {
       "id": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
+      "teacherId": "ecc9a6ed-2456-4f21-8909-60535ed1670b",
       "discipline": "Geometria",
       "level": "6º ano",
       "term": "B",
@@ -27,29 +27,7 @@ GET https://api-test.miraeducacao.com.br/teacher/{teacherId}/classes
    },
    {
       "id": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
-      "discipline": "Física",
-      "level": "8º",
-      "period": "Noturno",
-      "term": "C"
-   }
-]
-```
-
-### Receber listagem de turmas
-
-```http
-GET https://api-test.miraeducacao.com.br/teacher/{teacherId}/classes
-
-[
-   {
-      "id": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
-      "discipline": "Geometria",
-      "level": "6º ano",
-      "term": "B",
-      "period": "Manhã"
-   },
-   {
-      "id": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
+      "teacherId": "ecc9a6ed-2456-4f21-8909-60535ed1670b",
       "discipline": "Física",
       "level": "8º",
       "period": "Noturno",
@@ -60,33 +38,36 @@ GET https://api-test.miraeducacao.com.br/teacher/{teacherId}/classes
 
 ### Receber a listagem de alunos de uma turma
 
-```http
-GET 	https://api-test.miraeducacao.com.br/class/{classId}/students
-
+##### GET 	https://api-test.miraeducacao.com.br/students?schoolClassId={schoolClassId}
+```json
 [
    {
       "id": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
+      "schoolClassId": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
       "orderId": "1",
       "name": "João de Barro"
    },
    {
       "id": "4bbb5158-e60a-4c96-9a3e-ac360b6632f3",
+      "schoolClassId": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
       "orderId": "3",
       "name": "Mário Roberto"
    },
    {
       "id": "9d395096-e02d-11e7-80c1-9a214cf093ae",
+      "schoolClassId": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
       "orderId": "4",
       "name": "Rosana Silva"
    },
    {
       "id": "a243b392-e02d-11e7-80c1-9a214cf093ae",
+      "schoolClassId": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
       "orderId": "16",
       "name": "Humberto Ramos"
    },
-   ...
    {
       "id": "4324fsfd-cfsafas-4fasa2-8fs21-sasf",
+      "schoolClassId": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
       "orderId": "8",
       "name": "Maria Alberta"
    }
@@ -95,10 +76,12 @@ GET 	https://api-test.miraeducacao.com.br/class/{classId}/students
 
 ### Inserir uma chamada de uma turma
 
-```http
-POST 	https://api-test.miraeducacao.com.br/class/{classId}/lesson
+##### POST 	https://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson
+```json
 {
-   "date": "2016-09-13T13:30:52.123Z"
+   "id": "10ff4245-4621-42f3-9c75-e10244f43134",
+   "date": "2016-09-13T13:30:52.123Z",
+   "schoolClassId": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
    "lessonOrder": 1,
    "attendances": [
       {
@@ -119,11 +102,12 @@ POST 	https://api-test.miraeducacao.com.br/class/{classId}/lesson
 
 ### Atualizar uma chamada de uma turma
 
-```http
-PUT 	https://api-test.miraeducacao.com.br/class/{classId}/lesson/{lessonId}
+##### PUT 	https://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson/{lessonId}
+```json
 {
    "id": "10ff4245-4621-42f3-9c75-e10244f43134",
-   "date": "2016-09-13T13:30:52.123Z"
+   "schoolClassId": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
+   "date": "2016-09-13T13:30:52.123Z",
    "lessonOrder": 1,
    "attendances": [
       {

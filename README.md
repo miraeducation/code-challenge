@@ -4,7 +4,7 @@ Olá, seja bem-vindo ao nosso repositório de testes técnicos!
 
 Na [Mira Educação](http://www.miraeducacao.com.br) temos a missão muito importante de melhorar a educação, e para isso construímos um produto com muita qualidade que envolve serviços de backend, portais (frontend) e apps Android e iOS.
 
-## Considerações Gerais
+### Considerações Gerais
 Os testes técnicos servem para:
 - Analisar as habilidades do desenvolvedor em relação ao domínio da linguagem, frameworks e demais tecnologias utilizadas
 - Entender como o desenvolvedor compreende os requisitos propostos e verificar se a implementação atende os mesmos
@@ -33,6 +33,6 @@ Os seguintes testes técnicos estão prontos para realização:
 - [Frontend](frontend.md)
 - [Mobile](mobile.md)
 
-Para os testes de *Frontend* e *Mobile* será necessário utilizar nossa API de testes e também recursos como ícones. Você encontrará instruções sobre na página de [Recursos](resources.md).
+Se tiver alguma dúvida, converse com seu contato na Mira!
 
-Boa sorte! :) Se tiver alguma dúvida, converse com seu contato na Mira!
+Boa sorte! :) 

@@ -2,7 +2,7 @@
 
 ### Tela inicial
 
-A primeira tela apresenta o nome do professor recuperado no endpoint `/me` e a lista de suas aulas.
+A primeira tela apresenta o nome do professor recuperado no endpoint `GET /teacher` e a lista de suas aulas.
 
 <img width="601" alt="screen shot 2017-12-13 at 14 34 19" src="https://user-images.githubusercontent.com/664138/33950601-fb21c874-e013-11e7-91d3-7d41acadf7aa.png">
 
