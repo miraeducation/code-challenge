@@ -1,6 +1,12 @@
 # Teste Técnico - Frontend
 
-## Requisitos técnicos
+### Instruções
+
+- Entenda o objetivo do teste técnico na página de [Objetivo](objective.md)
+- Implemente o portal web baseando-se na [UI](ui.md) proposta
+- Acesse a [API](api.md) para entender os endpoints a serem consumid
+
+### Requisitos técnicos
 
 - Desenvolver usando as seguintes tecnologias:
   - Webpack
@@ -14,13 +20,8 @@
 - Implementação de testes (integrados e unitários)
 - Criação de um `README.md` (arquitetura, instruções de execução, entre outros)
 
-## Dicas
+### Dicas
 - Gaste um tempo desenhando a sua solução antes de iniciar a codificação
 - Seja criativo e também resiliente, pense nos corner cases, a API pode ficar indisponível e o portal web precisa lidar com essa indisponibilidade
 - Está com dúvidas? Converse com o seu contato na Mira! :)
-
-## Instruções
-
-- Entenda o objetivo do teste técnico na página de [Objetivo](objective.md)
-- Implemente o portal web baseando-se na [UI](ui.md) proposta
-- Acesse a [API](api.md) para entender os endpoints a serem consumidos
+os
