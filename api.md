@@ -5,7 +5,7 @@ utilizando o *teacherId* fornecido.
 ### Receber informações sobre o usuário (professor)
 
 
-##### GET https://api-test.miraeducacao.com.br/teacher/{teacherId}
+##### GET http://api-test.miraeducacao.com.br/teacher/{teacherId}
 >Se você não recebeu o *teacherId*, converse com seu contato na Mira
 ```json
 {
@@ -16,7 +16,7 @@ utilizando o *teacherId* fornecido.
 
 ### Receber listagem de turmas
 
-##### GET https://api-test.miraeducacao.com.br/teacher/{teacherId}/schoolclasses
+##### GET http://api-test.miraeducacao.com.br/teacher/{teacherId}/schoolclasses
 ```json
 [
    {
@@ -40,7 +40,7 @@ utilizando o *teacherId* fornecido.
 
 ### Receber a listagem de alunos de uma turma
 
-##### GET 	https://api-test.miraeducacao.com.br/students?schoolClassId={schoolClassId}
+##### GET 	http://api-test.miraeducacao.com.br/students?schoolClassId={schoolClassId}
 ```json
 [
    {
@@ -79,7 +79,7 @@ utilizando o *teacherId* fornecido.
 ### Inserir uma chamada de uma turma
 >Repare que o id é um UUID gerado e fornecido pelo cliente ao servidor.
 
-##### POST 	https://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson
+##### POST 	http://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson
 ```json
 {
    "id": "10ff4245-4621-42f3-9c75-e10244f43134",
@@ -105,7 +105,7 @@ utilizando o *teacherId* fornecido.
 
 ### Atualizar uma chamada de uma turma
 
-##### PUT 	https://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson/{lessonId}
+##### PUT 	http://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson/{lessonId}
 ```json
 {
    "id": "10ff4245-4621-42f3-9c75-e10244f43134",
@@ -126,6 +126,6 @@ utilizando o *teacherId* fornecido.
 Caso sejam necessárias correções ou análises dos requests de *lessons* realizados, 
 disponibilizamos os serviços de listagem e deleção de *lessons*:
 
-##### GET 	https://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lessons
+##### GET 	http://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lessons
 
-##### DELTE	https://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson/{lessonId}
+##### DELTE	http://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson/{lessonId}
