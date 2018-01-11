@@ -4,7 +4,7 @@ Para a implementação dos testes de frontend e mobile será necessário consumi
 ### Receber informações sobre o usuário (professor)
 
 
-##### GET https://api-test.miraeducacao.com.br/teacher/{teacherId}
+##### GET http://api-test.miraeducacao.com.br/teacher/{teacherId}
 ```json
 {
    "id": "ecc9a6ed-2456-4f21-8909-60535ed1670b",
@@ -14,7 +14,7 @@ Para a implementação dos testes de frontend e mobile será necessário consumi
 
 ### Receber listagem de turmas
 
-##### GET https://api-test.miraeducacao.com.br/teacher/{teacherId}/schoolclasses
+##### GET http://api-test.miraeducacao.com.br/teacher/{teacherId}/schoolclasses
 ```json
 [
    {
@@ -38,7 +38,7 @@ Para a implementação dos testes de frontend e mobile será necessário consumi
 
 ### Receber a listagem de alunos de uma turma
 
-##### GET 	https://api-test.miraeducacao.com.br/students?schoolClassId={schoolClassId}
+##### GET 	http://api-test.miraeducacao.com.br/students?schoolClassId={schoolClassId}
 ```json
 [
    {
@@ -76,7 +76,7 @@ Para a implementação dos testes de frontend e mobile será necessário consumi
 
 ### Inserir uma chamada de uma turma
 
-##### POST 	https://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson
+##### POST 	http://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson
 ```json
 {
    "id": "10ff4245-4621-42f3-9c75-e10244f43134",
@@ -102,7 +102,7 @@ Para a implementação dos testes de frontend e mobile será necessário consumi
 
 ### Atualizar uma chamada de uma turma
 
-##### PUT 	https://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson/{lessonId}
+##### PUT 	http://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson/{lessonId}
 ```json
 {
    "id": "10ff4245-4621-42f3-9c75-e10244f43134",
