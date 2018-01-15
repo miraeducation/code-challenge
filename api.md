@@ -1,10 +1,12 @@
 # API
-Para a implementação dos testes de frontend e mobile será necessário consumir os seguintes serviços com os respectivos contratos:
+Para a implementação do teste será necessário consumir os seguintes serviços com os respectivos contratos 
+utilizando o *teacherId* fornecido.
 
 ### Receber informações sobre o usuário (professor)
 
 
 ##### GET http://api-test.miraeducacao.com.br/teacher/{teacherId}
+>Se você não recebeu o *teacherId*, converse com seu contato na Mira
 ```json
 {
    "id": "ecc9a6ed-2456-4f21-8909-60535ed1670b",
@@ -75,6 +77,7 @@ Para a implementação dos testes de frontend e mobile será necessário consumi
 ```
 
 ### Inserir uma chamada de uma turma
+>Repare que o id é um UUID gerado e fornecido pelo cliente ao servidor.
 
 ##### POST 	http://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson
 ```json
@@ -107,23 +110,22 @@ Para a implementação dos testes de frontend e mobile será necessário consumi
 {
    "id": "10ff4245-4621-42f3-9c75-e10244f43134",
    "schoolClassId": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
-   "date": "2016-09-13T13:30:52.123Z",
-   "lessonOrder": 1,
    "attendances": [
-      {
-         "studentId": "e8c6d161-c8d1-4e90-8e0f-affd06ac005c",
-         "status": "PRESENT"
-      },
       {
          "studentId": "4bbb5158-e60a-4c96-9a3e-ac360b6632f3",
          "status": "ABSENCE"
-      },
-      {
-         "studentId": "4324fsfd-cfsafas-4fasa2-8fs21-sasf",
-         "status": "PRESENCE"
       }
    ]
 }
 ```
 
 > Para efeitos de simplicidade, não há necessidade de autenticação nem autorização para consumo dos serviços.
+
+
+### Serviços auxiliares
+Caso sejam necessárias correções ou análises dos requests de *lessons* realizados, 
+disponibilizamos os serviços de listagem e deleção de *lessons*:
+
+##### GET 	http://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lessons
+
+##### DELTE	http://api-test.miraeducacao.com.br/schoolclass/{schoolClassId}/lesson/{lessonId}
