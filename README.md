@@ -1,4 +1,6 @@
-# Mira Educação - Teste Técnico
+![banner](https://user-images.githubusercontent.com/664138/34118450-f4f977da-e405-11e7-82ba-e259894bbbcd.png)
+
+# Code Challenge - Teste técnico da Mira :)
 
 Olá, seja bem-vindo ao nosso repositório de testes técnicos!
 
