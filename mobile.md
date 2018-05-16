@@ -4,6 +4,11 @@
 
 O seu objetivo é desenvolver um app que recebe um vetor *V* de um serviço externo, e dado um inteiro *N*, seu app informará se existem dois valores em *V* que somados resultam em *N*. 
 
+### Restrições:
+
+- *N* pode ser um número entre -197 e 197;
+- *V* possui tamanho fixo 16 e pode conter valores inteiros entre -99 e 99;
+
 <br />
 
 ![brisolla_2](https://user-images.githubusercontent.com/1713923/40144356-aa90cba4-5934-11e8-8bff-4dda177b5de4.png)
@@ -23,7 +28,7 @@ O app deve seguir a UI apresentada. A primeira tela contém respectivamente:
 - Um botão `Histórico de consulta` que abre uma nova tela apresentando as execuções do botão `Verificar`:
 
  <br />
- 
+
 ![brisolla_1](https://user-images.githubusercontent.com/1713923/40144323-96278edc-5934-11e8-9e65-36acc0dbeb8a.png)
 
  <br />
@@ -35,12 +40,6 @@ Top bar contendo um botão de *backward* que redireciona o usuário para a tela 
 Uma lista onde cada linha é uma consulta já realizada. `N` é o número inserido para consulta no algoritmo, `RESULTADO` é a resposta que o algoritmo retornou para o `N` inserido na lista corrente;
 
 Cada linha contém um botão `ver lista` que apresenta através de um popup, o vetor V no momento daquela consulta;
-
-
-### Restrições:
-
-N pode ser um número entre -197 e 197;
-V possui tamanho fixo 16 e pode conter valores inteiros entre -99 e 99;
 
 #### Requisitos
 - Desenvolver usando as seguintes linguagens:
