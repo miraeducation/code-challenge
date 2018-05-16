@@ -21,7 +21,7 @@ O app deve seguir a UI apresentada. A primeira tela contém respectivamente:
 
 - O campo `Número` que representa N no nosso problema;
 
-- Um botão `Verificar` que aplica o algorítmo que irá validar a existência de dois números em V cuja soma é N;
+- Um botão `Verificar` que aplica o algorítmo que irá validar a existência de dois números em V cuja soma é N. A resposta deve ser apresentada via Toast: "Existe" ou "Não existe" e o campo `Número` deve ser limpo para novas verificações;
 
 - Um botão `Redefinir Lista` que chamará o serviço do primeiro ítem e carregará um novo vetor V no app;
 
