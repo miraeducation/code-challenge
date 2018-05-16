@@ -2,9 +2,7 @@
 
 ### Instruções
 
-- Entenda o objetivo do teste técnico na página de [Objetivo](objective.md)
-- Implemente o app na plataforma definida (Android ou iOS) baseando-se na [UI](ui.md) proposta
-- Acesse a [API](api.md) para entender os endpoints a serem consumidos
+
 
 ### Requisitos técnicos
 - Desenvolver usando as seguintes linguagens:
@@ -18,4 +16,4 @@
 ### Dicas
 - Use libs externas, sempre que julgar necessário
 - Gaste um tempo desenhando a sua solução antes de iniciar a codificação.
-- Seja criativo e também resiliente, pense nos corner cases, os serviços REST podem ficar indisponíveis e o app precisa tratar esses casos
+- Seja criativo e também resiliente, pense nos corner cases, serviços REST podem ficar indisponíveis e o app precisa tratar esses casos
