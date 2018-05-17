@@ -46,7 +46,7 @@ A tela de `Histórico de consulta` contém:
 
 #### Requisitos
 - Desenvolver usando as seguintes linguagens:
-  - Android: *Java* ou *Kotlin*
+  - Android: *Kotlin* ou *Java* 
   - iOS: *Swift*
 - App deve ser 100% crash free
 - Implementação de testes (integrados e unitários)
