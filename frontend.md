@@ -12,6 +12,7 @@
 
 - Javascript ES6 / ES7 (pode utilizar frameworks)
 - Criação de um `README.md` (arquitetura, instruções de uso, entre outros)
+- Pode utilizar fonte de sistema
 
 ### Dicas
 - Gaste um tempo desenhando a sua solução antes de iniciar a codificação
