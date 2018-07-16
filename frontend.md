@@ -17,4 +17,3 @@
 - Gaste um tempo desenhando a sua solução antes de iniciar a codificação
 - Seja criativo e também resiliente, pense nos corner cases, a API pode ficar indisponível e o portal web precisa lidar com essa indisponibilidade
 - Está com dúvidas? Converse com o seu contato na Mira! :)
-os
