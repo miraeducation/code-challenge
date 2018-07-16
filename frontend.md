@@ -2,23 +2,16 @@
 
 ### Instruções
 
-- Entenda o objetivo do teste técnico na página de [Objetivo](objective.md)
-- Implemente o portal web baseando-se na [UI](ui.md) proposta
-- Acesse a [API](api.md) para entender os endpoints a serem consumid
+- Listar os personagens de star wars lendo da api [swapi](https://swapi.co/)
+
+### UI proposta
+![tela-teste-front](https://user-images.githubusercontent.com/398909/42768524-2679fad8-88f6-11e8-9872-41eb199d1d79.png)
+
 
 ### Requisitos técnicos
 
-- Desenvolver usando as seguintes tecnologias:
-  - Webpack
-  - React com flux
-  - Stylus
-  - Javascript ES6 / ES7
-- Opcionais:
-  - Progressive Web App
-  - Suporte offline
-- Não devem ser utilizados frameworks como Meteor, Ionic ou similares
-- Implementação de testes (integrados e unitários)
-- Criação de um `README.md` (arquitetura, instruções de execução, entre outros)
+- Javascript ES6 / ES7 (pode utilizar frameworks)
+- Criação de um `README.md` (arquitetura, instruções de uso, entre outros)
 
 ### Dicas
 - Gaste um tempo desenhando a sua solução antes de iniciar a codificação
