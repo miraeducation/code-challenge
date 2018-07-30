@@ -24,7 +24,7 @@ Algumas recomendações para a realização do teste técnico:
 **Importante!** Os desenvolvedores da Mira vão revisar o seu código e executar o mesmo. Então, garanta que as dependências sejam resolvidas e consigamos ver todas as funcionalidades de forma fácil e intuitiva.
 
 ### Como fazer a entrega?
-Crie seu projeto para o teste técnico no [BitBucket](bitbucket.org) e, quando estiver pronto para revisão, siga os passos:
+Crie seu projeto para o teste técnico no [BitBucket](http://www.bitbucket.org) e, quando estiver pronto para revisão, siga os passos:
 - Vá em `Settings` e depois `User and group access`
 - Adicione o email devs@miraeducacao.com.br com permissão de `Read` como um *User*
 - Por fim, avise seu contato na Mira, que solicitará revisão por parte dos nossos desenvolvedores
