@@ -34,6 +34,7 @@ Os seguintes testes técnicos estão prontos para realização:
 - [Backend](backend.md)
 - [Frontend](frontend.md)
 - [Mobile](mobile.md)
+- [QA](qa.md)
 
 Se tiver alguma dúvida, converse com seu contato na Mira!
 
