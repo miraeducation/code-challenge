@@ -1,7 +1,8 @@
 # Teste Técnico - Backend
 
 ## Objetivo
-Construção de uma API para manutenção de dados de usuários.
+O objetivo do teste é:
+   - Construir uma API para manutenção de dados de usuários.
 
 ## Contexto
 Estamos desenvolvendo uma aplicação para cadastro de pessoas na qual existem duas situações de cadastro:
@@ -29,11 +30,17 @@ As informações de uma pessoa que precisamos cadastrar são:
 - Endpoint para ativar/desativar uma lista de ids de pessoas
 
 ## Requisitos técnicos
-- Desenvolver usando *Java* ou *Kotlin*
+- Desenvolver usando *Java*, *Kotlin* ou *Python*, utilizando os frameworks SpringBoot, Django ou Flask
 - Serviço deve respeitar os princípios RESTFul
-- Utilizar Maven ou Gradle para build do seu projeto
+- Utilizar Gradle para build do seu projeto
+- Os dados manipulados pela API devem ser armazenados em uma base de dados Embedded
+- Implemente testes, garanta que todas as requisições funcionam como deveriam funcionar
 
 ## Lembrando..
 - Não esqueça de testes e documentações
 - **Executaremos** seu serviço e esperamos não ter que alterar ou configurar nada para atingir este objetivo com sucesso
 - Está com dúvidas? Converse com o seu contato na Mira! :)
+
+## Diferenciais
+- Publicação do ambiente em um serviço cloud de hospedagens (Heroku, AWS, GCP, etc)
+- 
